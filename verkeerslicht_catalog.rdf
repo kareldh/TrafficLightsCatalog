@@ -9,7 +9,7 @@
 
     <dcat:Catalog rdf:about="https://github.com/kareldh/opentrafficlightscatalog">
       <dct:description>Demo catalog as part of my masters thesis.</dct:description>
-      <dct:publisher rdf:resource="https://github.com/kareldh/">
+      <dct:publisher rdf:resource="https://github.com/kareldh/" />
       <dct:title>kareldh Catalog</dct:title>
       <dcat:dataset>
         <dcat:Dataset rdf:about="https://github.com/kareldh/opentrafficlightscatalog/data">
