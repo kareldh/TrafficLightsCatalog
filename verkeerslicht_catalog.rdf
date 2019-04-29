@@ -9,7 +9,7 @@
 
     <dcat:Catalog rdf:about="https://github.com/kareldh/opentrafficlightscatalog">
       <dct:description>Demo catalog as part of my masters thesis.</dct:description>
-      <dct:publisher rdf:resource="https://github.com/kareldh/" />
+      <dct:publisher rdf:resource="https://github.com/kareldh/TrafficLightsCatalog" />
       <dct:title>kareldh Catalog</dct:title>
       <dcat:dataset>
         <dcat:Dataset rdf:about="https://github.com/kareldh/opentrafficlightscatalog/data">
@@ -22,23 +22,29 @@
             </dct:Location>
           </dct:spatial>
           <dct:description>Publicatie van verkeerslichtdata voor het kruispunt aan het Tropisch Instituut in Antwerpen volgen OpenTrafficLights.org</dct:description>
-          <dct:publisher rdf:resource="https://github.com/kareldh/" />
-          <dcat:contactPoint rdf:resource="https://github.com/kareldh/" />
+          <dct:publisher rdf:resource="https://github.com/kareldh/TrafficLightsCatalog" />
+          <dcat:contactPoint rdf:resource="https://github.com/kareldh" />
           <dct:language>dut</dct:language>
           <dct:title>Verkeerslichtdata kruispunt Tropisch Instituut Antwerpen (OpenTrafficLights)</dct:title>
         </dcat:Dataset>
       </dcat:dataset>
     </dcat:Catalog>
 
-    <foaf:Person rdf:about="https://github.com/kareldh/">
+    <foaf:Person rdf:about="https://github.com/kareldh/TrafficLightsCatalog">
       <foaf:mbox>karel.dhaene@ugent.be</foaf:mbox>
       <foaf:name>Karel D'haene</foaf:name>
     </foaf:Person>
+
+    <vcard:Individual rdf:about="https://github.com/kareldh">
+      <vcard:hasEmail>karel.dhaene@ugent.be</vcard:hasEmail>
+      <vcard:fn>Karel D'haene</vcard:fn>
+    </vcard:Individual>
 
     <dcat:Distribution rdf:about="https://lodi.ilabt.imec.be/observer/rawdata/latest">
       <dcat:format>application/trig</dcat:format>
       <dcat:accessURL rdf:resource="https://lodi.ilabt.imec.be/observer/rawdata/latest" />
       <dct:title>OpenTrafficLights</dct:title>
       <dct:description>OpenTrafficLights publishing traffic light api</dct:description>
+      <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
     </dcat:Distribution>
 </rdf:RDF>
