@@ -9,7 +9,7 @@
     <dcat:Catalog rdf:about="https://github.com/kareldh/opentrafficlightscatalog">
       <dcat:dataset>
         <dcat:Dataset rdf:about="https://github.com/kareldh/opentrafficlightscatalog/data">
-          <dcat:distribution rdf:resource="https://lodi.ilabt.imec.be/observer/rawdata/latest"/>
+          <dcat:distribution rdf:resource="https://lodi.ilabt.imec.be/observer/rawdata/latest" />
           <dcat:keyword>Verkeerslicht</dcat:keyword>
           <dct:spatial>
             <dct:Location rdf:nodeID="location1">
@@ -18,8 +18,8 @@
             </dct:Location>
           </dct:spatial>
           <dct:description>Publicatie van verkeerslichtdata voor het kruispunt aan het Tropisch Instituut in Antwerpen volgen OpenTrafficLights.org</dct:description>
-          <dct:publisher rdf:resource="https://github.com/kareldh/"/>
-          <dcat:contactpoint rdf:resource="https://github.com/kareldh/"/>
+          <dct:publisher rdf:resource="https://github.com/kareldh/" />
+          <dcat:contactpoint rdf:resource="https://github.com/kareldh/" />
           <dct:language>dut</dct:language>
           <dct:title>Verkeerslichtdata kruispunt Tropisch Instituut Antwerpen (OpenTrafficLights)</dct:title>
         </dcat:Dataset>
