@@ -9,7 +9,7 @@
 
     <dcat:Catalog rdf:about="https://github.com/kareldh/opentrafficlightscatalog">
       <dct:description>Demo catalog as part of my masters thesis.</dct:description>
-      <dct:publisher rdf:about="https://github.com/kareldh/" />
+      <dct:publisher rdf:resource="https://github.com/kareldh/" />
       <dct:title>kareldh Catalog</dct:title>
       <dcat:dataset>
         <dcat:Dataset rdf:about="https://github.com/kareldh/opentrafficlightscatalog/data">
@@ -36,7 +36,7 @@
     </foaf:Person>
 
     <dcat:Distribution rdf:about="https://lodi.ilabt.imec.be/observer/rawdata/latest">
-      <dcat:format>application/trig</dct:format>
+      <dcat:format>application/trig</dcat:format>
       <dcat:accessURL rdf:resource="https://lodi.ilabt.imec.be/observer/rawdata/latest" />
       <dct:title>OpenTrafficLights</dct:title>
       <dct:description>OpenTrafficLights publishing traffic light api</dct:description>
