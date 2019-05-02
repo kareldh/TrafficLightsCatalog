@@ -14,7 +14,7 @@
       <dct:publisher rdf:resource="https://github.com/kareldh/TrafficLightsCatalog" />
       <dct:title>kareldh Catalog</dct:title>
       <dcat:dataset>
-        <vocals:Stream rdf:about="https://github.com/kareldh/opentrafficlightscatalog/data">
+        <vocals:RDFStream rdf:about="https://github.com/kareldh/opentrafficlightscatalog/data">
           <vocals:hasEndPoint rdf:resource="https://lodi.ilabt.imec.be/observer/rawdata/latest" />
           <dcat:keyword>Verkeerslicht</dcat:keyword>
           <dct:spatial>
@@ -28,7 +28,7 @@
           <dcat:contactPoint rdf:resource="https://github.com/kareldh" />
           <dct:language>dut</dct:language>
           <dct:title>Verkeerslichtdata kruispunt Tropisch Instituut Antwerpen (OpenTrafficLights)</dct:title>
-        </vocals:Stream>
+        </vocals:RDFStream>
       </dcat:dataset>
     </vocals:StreamDescriptor>
 
