@@ -1,6 +1,6 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix ns0: <http://w3id.org/rsp/vocals#> .
+@prefix vocals: <http://w3id.org/rsp/vocals#> .
 @prefix ns1: <http://www.w3.org/ns/locn#> .
 @prefix ns2: <https://www.iana.org/assignments/media-types/application/vnd.geo+> .
 @prefix ns3: <http://www.opengis.net/ont/geosparql#> .
@@ -8,15 +8,20 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
 <https://github.com/kareldh/opentrafficlightscatalog>
-  a <http://w3id.org/rsp/vocals#StreamDescriptor>, dcat:Catalog ;
+  a vocals:StreamDescriptor, dcat:Catalog ;
   dc:description "Demo catalog as part of my masters thesis." ;
   dc:publisher <https://github.com/kareldh/TrafficLightsCatalog> ;
   dc:title "kareldh Catalog" ;
-  dcat:dataset <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> .
+  foaf:homepage <https://github.com/kareldh/TrafficLightsCatalog/blob/master/verkeerslicht_catalog.ttl>
+  dc:language "dut"
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/>
+  dc:issued "2019-05-03T16:00"
+  dc:modified "2019-05-03T16:00"
+  dcat:Dataset <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> .
 
 <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset>
-  a <http://w3id.org/rsp/vocals#RDFStream> ;
-  ns0:hasEndPoint <https://lodi.ilabt.imec.be/observer/rawdata/latest> ;
+  a vocals:RDFStream, dcat:Dataset ;
+  ns0:hasEndPoint <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> ;
   dcat:keyword "Verkeerslicht" ;
   dc:spatial [
     a dc:Location ;
@@ -29,7 +34,7 @@
   dc:title "Verkeerslichtdata kruispunt Tropisch Instituut Antwerpen (OpenTrafficLights)" .
 
 <https://github.com/kareldh/TrafficLightsCatalog>
-  a foaf:Person ;
+  a foaf:Person, foaf:Agent ;
   foaf:mbox "karel.dhaene@ugent.be" ;
   foaf:name "Karel D'haene" .
 
@@ -38,8 +43,8 @@
   vcard:hasEmail "karel.dhaene@ugent.be" ;
   vcard:fn "Karel D'haene" .
 
-<https://lodi.ilabt.imec.be/observer/rawdata/latest>
-  a ns0:StreamEndpoint ;
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint>
+  a vocals:StreamEndpoint, dcat:Distribution ;
   dcat:format "application/trig" ;
   dcat:accessURL <https://lodi.ilabt.imec.be/observer/rawdata/latest> ;
   dc:title "OpenTrafficLights" ;
