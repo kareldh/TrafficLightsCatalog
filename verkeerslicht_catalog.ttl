@@ -12,7 +12,7 @@
   dc:description "Demo catalog as part of my masters thesis." ;
   dc:publisher <https://github.com/kareldh/TrafficLightsCatalog> ;
   dc:title "kareldh Catalog" ;
-  foaf:homepage <https://github.com/kareldh/TrafficLightsCatalog/blob/master/verkeerslicht_catalog.ttl>
+  foaf:homepage "https://github.com/kareldh/TrafficLightsCatalog/blob/master/verkeerslicht_catalog.ttl"
   dc:language "dut"
   dc:license <https://creativecommons.org/publicdomain/zero/1.0/>
   dc:issued "2019-05-03T16:00"
@@ -21,7 +21,7 @@
 
 <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset>
   a vocals:RDFStream, dcat:Dataset ;
-  ns0:hasEndPoint <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> ;
+  vocals:hasEndPoint <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> ;
   dcat:keyword "Verkeerslicht" ;
   dc:spatial [
     a dc:Location ;
@@ -46,7 +46,7 @@
 <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint>
   a vocals:StreamEndpoint, dcat:Distribution ;
   dcat:format "application/trig" ;
-  dcat:accessURL <https://lodi.ilabt.imec.be/observer/rawdata/latest> ;
+  dcat:accessURL "https://lodi.ilabt.imec.be/observer/rawdata/latest" ;
   dc:title "OpenTrafficLights" ;
   dc:description "OpenTrafficLights publishing traffic light api" ;
   dc:license <https://creativecommons.org/publicdomain/zero/1.0/> .
