@@ -12,11 +12,11 @@
   dc:description "Demo catalog as part of my masters thesis." ;
   dc:publisher <https://github.com/kareldh/TrafficLightsCatalog> ;
   dc:title "kareldh Catalog" ;
-  foaf:homepage "https://github.com/kareldh/TrafficLightsCatalog/blob/master/verkeerslicht_catalog.ttl"
-  dc:language "dut"
-  dc:license <https://creativecommons.org/publicdomain/zero/1.0/>
-  dc:issued "2019-05-03T16:00"
-  dc:modified "2019-05-03T16:00"
+  foaf:homepage "https://github.com/kareldh/TrafficLightsCatalog/blob/master/verkeerslicht_catalog.ttl" ;
+  dc:language "dut" ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:issued "2019-05-03T16:00" ;
+  dc:modified "2019-05-03T16:00" ;
   dcat:Dataset <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> .
 
 <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset>
