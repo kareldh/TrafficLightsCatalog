@@ -13,7 +13,6 @@
   dc:description "Demo catalog as part of my masters thesis." ;
   dc:publisher <https://github.com/kareldh/TrafficLightsCatalog> ;
   dc:title "kareldh Catalog" ;
-  foaf:homepage <https://github.com/kareldh/opentrafficlightscatalog> ;
   dc:language <http://id.loc.gov/vocabulary/iso639-2/dut> ;
   dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
   dc:issued "2019-05-03"^^xsd:date ;
@@ -51,6 +50,7 @@
   a vocals:StreamEndpoint, dcat:Distribution ;
   dcat:format "application/trig" ;
   dcat:downloadURL "https://lodi.ilabt.imec.be/observer/rawdata/latest" ;
+  dcat:accessURL "https://lodi.ilabt.imec.be/observer/rawdata/latest" ;
   dc:title "OpenTrafficLights" ;
   dc:description "OpenTrafficLights publishing traffic light api" ;
   dc:license <https://creativecommons.org/publicdomain/zero/1.0/> .
