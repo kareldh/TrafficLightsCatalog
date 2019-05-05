@@ -1,0 +1,42 @@
+<https://github.com/kareldh/opentrafficlightscatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/rsp/vocals#StreamDescriptor> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/description> "Demo catalog as part of my masters thesis." .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/publisher> <https://github.com/kareldh/TrafficLightsCatalog> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/title> "kareldh Catalog" .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/dut> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/issued> "2019-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://purl.org/dc/terms/modified> "2019-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://xmlns.com/foaf/0.1/primaryTopic> <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://w3id.org/rsp/vocals#stream> <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> .
+<https://github.com/kareldh/opentrafficlightscatalog> <http://www.w3.org/ns/dcat#dataset> <https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/rsp/vocals#RDFStream> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://w3id.org/rsp/vocals#hasEndPoint> <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://www.w3.org/ns/dcat#distribution> <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://www.w3.org/ns/dcat#keyword> "verkeerslicht" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://purl.org/dc/terms/spatial> _:genid1 .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://purl.org/dc/terms/description> "Publicatie van verkeerslichtdata voor het kruispunt aan het Tropisch Instituut in Antwerpen volgen OpenTrafficLights.org" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://purl.org/dc/terms/publisher> <https://github.com/kareldh/TrafficLightsCatalog> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://www.w3.org/ns/dcat#contactPoint> <https://github.com/kareldh> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/dut> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Dataset> <http://purl.org/dc/terms/title> "Verkeerslichtdata kruispunt Tropisch Instituut Antwerpen (OpenTrafficLights)" .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Location> .
+_:genid1 <http://www.w3.org/ns/locn#geometry> "{\"type\": \"Polygon\", \"coordinates\": [[[4.394016265869141, 51.21098346459735], [4.39927339553833, 51.21098346459735], [4.39927339553833, 51.213214824559365], [4.394016265869141, 51.213214824559365], [4.394016265869141, 51.21098346459735]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+_:genid1 <http://www.w3.org/ns/locn#geometry> "POLYGON ((4.394016265869141 51.21098346459735, 4.39927339553833 51.21098346459735, 4.39927339553833 51.213214824559365, 4.394016265869141 51.213214824559365, 4.394016265869141 51.21098346459735))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<https://github.com/kareldh/TrafficLightsCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://github.com/kareldh/TrafficLightsCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<https://github.com/kareldh/TrafficLightsCatalog> <http://xmlns.com/foaf/0.1/mbox> "karel.dhaene@ugent.be" .
+<https://github.com/kareldh/TrafficLightsCatalog> <http://xmlns.com/foaf/0.1/name> "Karel D'haene" .
+<https://github.com/kareldh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Individual> .
+<https://github.com/kareldh> <http://www.w3.org/2006/vcard/ns#hasEmail> "karel.dhaene@ugent.be" .
+<https://github.com/kareldh> <http://www.w3.org/2006/vcard/ns#fn> "Karel D'haene" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/rsp/vocals#StreamEndpoint> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://www.w3.org/ns/dcat#format> "application/trig" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://www.w3.org/ns/dcat#downloadURL> "https://lodi.ilabt.imec.be/observer/rawdata/latest" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://www.w3.org/ns/dcat#accessURL> "https://lodi.ilabt.imec.be/observer/rawdata/latest" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://purl.org/dc/terms/title> "OpenTrafficLights" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://purl.org/dc/terms/description> "OpenTrafficLights publishing traffic light api" .
+<https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
+<https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/LicenseDocument> .
