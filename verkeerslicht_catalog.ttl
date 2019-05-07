@@ -49,7 +49,7 @@
 
 <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint>
   a vocals:StreamEndpoint, dcat:Distribution ;
-  dcat:format "application/trig" ;
+  dcat:mediaType = "application/trig" ;
   dcat:downloadURL "https://lodi.ilabt.imec.be/observer/rawdata/latest" ;
   dcat:accessURL "https://lodi.ilabt.imec.be/observer/rawdata/latest" ;
   dc:title "OpenTrafficLights" ;
