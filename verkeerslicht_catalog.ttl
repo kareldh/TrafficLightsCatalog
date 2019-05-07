@@ -57,4 +57,5 @@
   dc:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://creativecommons.org/publicdomain/zero/1.0/>
-  dc:type dc:LicenseDocument .
+  a dc:LicenseDocument ;
+  dc:type <http://purl.org/dc/dcmitype/Text> .
