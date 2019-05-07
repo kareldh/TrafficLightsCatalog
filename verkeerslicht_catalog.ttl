@@ -26,7 +26,7 @@
   vocals:hasEndPoint <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> ;
   dcat:distribution <https://lodi.ilabt.imec.be/observer/rawdata/latest#Endpoint> ;
   dcat:keyword "verkeerslicht" ;
-  dc:subject <http://dbpedia.org/resource/Signal_timing>, <http://dbpedia.org/resource/Traffic_light> .
+  dc:subject <http://dbpedia.org/resource/Signal_timing>, <http://dbpedia.org/resource/Traffic_light> ;
   dc:spatial [
     a dc:Location ;
     ns1:geometry "{\"type\": \"Polygon\", \"coordinates\": [[[4.394016265869141, 51.21098346459735], [4.39927339553833, 51.21098346459735], [4.39927339553833, 51.213214824559365], [4.394016265869141, 51.213214824559365], [4.394016265869141, 51.21098346459735]]]}"^^ns2:json, "POLYGON ((4.394016265869141 51.21098346459735, 4.39927339553833 51.21098346459735, 4.39927339553833 51.213214824559365, 4.394016265869141 51.213214824559365, 4.394016265869141 51.21098346459735))"^^ns3:wktLiteral
