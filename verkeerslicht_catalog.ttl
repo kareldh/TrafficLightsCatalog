@@ -32,18 +32,15 @@
     ns1:geometry "{\"type\": \"Polygon\", \"coordinates\": [[[4.3942387, 51.2106996],[4.3942387, 51.2127026],[4.3991321, 51.2127026],[4.3991321, 51.2106996],[4.3942387, 51.2106996]]]}"^^ns2:json, "POLYGON ((4.3942387 51.2106996,4.3942387 51.2127026,4.3991321 51.2127026,4.3991321 51.2106996,4.3942387 51.2106996))"^^ns3:wktLiteral
   ] ;
   dc:description "Publicatie van verkeerslichtdata voor het kruispunt aan het Tropisch Instituut in Antwerpen volgen OpenTrafficLights.org" ;
-  dc:publisher <https://github.com/kareldh/TrafficLightsCatalog> ;
+  dc:publisher <https://github.com/kareldh> ;
   dcat:contactPoint <https://github.com/kareldh> ;
   dc:language <http://id.loc.gov/vocabulary/iso639-2/dut> ;
   dc:title "Verkeerslichtdata kruispunt Tropisch Instituut Antwerpen (OpenTrafficLights)" .
 
 <https://github.com/kareldh/TrafficLightsCatalog>
-  a foaf:Person, foaf:Agent ;
+  a foaf:Person, foaf:Agent , vcard:Individual;
   foaf:mbox "karel.dhaene@ugent.be" ;
-  foaf:name "Karel D'haene" .
-
-<https://github.com/kareldh>
-  a vcard:Individual ;
+  foaf:name "Karel D'haene" ;
   vcard:hasEmail "karel.dhaene@ugent.be" ;
   vcard:fn "Karel D'haene" .
 
@@ -55,7 +52,3 @@
   dc:title "OpenTrafficLights" ;
   dc:description "OpenTrafficLights publishing traffic light api" ;
   dc:license <https://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://creativecommons.org/publicdomain/zero/1.0/>
-  a dc:LicenseDocument ;
-  dc:type <http://purl.org/dc/dcmitype/Text> .
